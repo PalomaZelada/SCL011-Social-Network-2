@@ -6,8 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.7.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0"
   },
   "scripts": {
@@ -30,5 +32,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalomaZelada/SCL011-Social-Network-2.git"
+  },
+  "keywords": [
+    "red",
+    "social",
+    "react",
+    "javascript",
+    "laboratoria"
+  ],
+  "author": "Paloma Zelada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalomaZelada/SCL011-Social-Network-2/issues"
+  },
+  "homepage": "https://github.com/PalomaZelada/SCL011-Social-Network-2#readme"
 }

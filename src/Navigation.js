@@ -15,6 +15,9 @@ function Navigation() {
         <Link to='/profile'>
           <li>Profile</li>
         </Link>
+        <Link to='/signup2'>
+          <li>Signup2</li>
+        </Link>
       </ul>
     </nav>
   );

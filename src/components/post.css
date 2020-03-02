@@ -1,0 +1,38 @@
+.createAndShow{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    background-color: blue;
+}
+.writePost{
+    padding: 5px;
+background-color: brown;
+}
+.post{
+    margin-bottom: 30px;
+
+}
+.showPost{
+    padding-left: 40px;
+    padding-right: 40px;
+background-color: chartreuse;
+}
+.trash{
+padding:0;
+border: 0;
+background-color: white;
+}
+.trashCan{
+    fill: black;
+}
+.trashCan:hover{
+    fill:red;
+}
+
+.postText{
+    resize: none;
+}

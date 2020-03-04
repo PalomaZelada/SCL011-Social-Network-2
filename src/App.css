@@ -3,10 +3,13 @@
   color: #AC387C;
 }
 body{
+    height: auto;
+    width:100%;
     background-image:  url(./images/477013-PGEGSF-563.jpg);
-    background-size:     cover;         
+    background-attachment: fixed;
+    background-size:     cover; 
     background-repeat:   no-repeat;
-    background-color: #f9f871;
+    background-position: center center; 
 }
 h1{
   color: #911D61;
@@ -19,3 +22,21 @@ li{
   padding-right: 20px;
   padding-top:30px;
 }
+.navbar-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-icon{
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  fill:#C45E9A;
+}
+.nav-icon:hover {
+  fill: #911D61;
+}
+.nav-icon:active {
+  fill: #911D61;
+}
+

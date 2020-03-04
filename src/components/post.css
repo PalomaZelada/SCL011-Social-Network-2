@@ -6,11 +6,9 @@
     justify-content: center;
     align-items: center;
     padding-left: 40px;
-    background-color: blue;
 }
 .writePost{
     padding: 5px;
-background-color: brown;
 }
 .post{
     margin-bottom: 30px;
@@ -19,7 +17,6 @@ background-color: brown;
 .showPost{
     padding-left: 40px;
     padding-right: 40px;
-background-color: chartreuse;
 }
 .trash{
 padding:0;

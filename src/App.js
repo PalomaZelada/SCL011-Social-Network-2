@@ -1,19 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import'./components/post.css';
+import firebase from 'firebase/app';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from './Navigation';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Home from './components/Home';
 import Profile from './components/Profile';
-import Store from './store/store';
-import { Provider } from 'react-redux';
 
 
-function App() {
-  return (
-    <Provider store={Store}>
+function App () {   
+  return (   
     <Router>
       <div>
         <Nav />
@@ -25,7 +23,6 @@ function App() {
         </Switch>
       </div>
     </Router>
-</Provider>
   );
 }
 
